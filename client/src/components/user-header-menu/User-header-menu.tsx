@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function UserName() {
+export default function UserHeaderMenu() {
   return (
     <>
-      <div className="max-w-xl w-full border border-alto-500 rounded-3xl">
+      <div className="max-w-xl w-full h-[82px] border border-alto-500 rounded-3xl">
         <ul className="flex justify-between items-center p-4">
           <div className="flex flex-col items-center">
             <Image src="/portfolio.svg" width={25} height={23} alt="" />
